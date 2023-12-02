@@ -1,0 +1,32 @@
+Question 1: Explain what JavaScript is and its role in web development.
+JavaScript is a versatile programming language primarily used for creating dynamic content and interactivity on websites. As a client-side scripting language, it runs in web browsers, allowing developers to enhance user interfaces, validate forms, and manipulate HTML and CSS to create responsive and engaging web applications. Its role in web development is crucial for building interactive and dynamic web pages, enabling smoother user experiences and facilitating client-server communication.
+
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where you would use each.
+JavaScript is a programming language for adding interactivity to web pages, handling dynamic behavior. HTML is a markup language defining the structure and content of web pages. JavaScript creates interactive features, validates forms, and enables dynamic content, while HTML structures the document, defines links, and displays content. Both are crucial for modern web development, working together to create engaging and responsive user experiences.
+
+3. List and describe the five primitive data types in JavaScript.
+•  
+Number: Represents numeric values, including integers and floating-point numbers (e.g., 5, 3.14).
+•  String: Represents sequences of characters enclosed in single or double quotes (e.g., 'hello', "world").
+•  Boolean: Represents logical values true or false, used for conditional expressions.
+•  Undefined: Represents a variable that has been declared but not assigned any value.
+•  Null: Represents the intentional absence of any object value; it is a special value typically used to signify a variable with no value or no object reference.
+
+Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the 'let' keyword?
+Purpose of Declaring Variables: Declaring variables in JavaScript is essential for storing and managing data. Variables allow developers to store values, manipulate data, and create dynamic and interactive web applications.
+Declaration Using 'let' Keyword: The 'let' keyword is used to declare variables in JavaScript. For example:
+let myVariable = 42; 
+This line declares a variable named myVariable and assigns it the value 42. The 'let' keyword is block-scoped, meaning it is limited to the block, statement, or expression where it is used. This enhances code clarity and avoids unintended variable hoisting issues.
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and
+multi-line comments.
+
+
+Importance of Comments: Comments in JavaScript enhance code readability and understanding. They provide context, explanations, and help document code. Examples include single-line comments (//) for brief notes and multi-line comments (/* */) for more extensive explanations or commenting out blocks of code.
+
+
+Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript.
+Provide an example where using a clear identifier improves code readability.
+Importance of Meaningful Variable Names: Clear and descriptive variable names in JavaScript improve code readability and understanding. They convey the purpose of the variable, making the code self-explanatory.
+Example:
+// Unclear variable name let x = 10; // Clear and descriptive variable name let numberOfItems = 10; 
+Using numberOfItems instead of x makes the code more readable and helps others understand the purpose of the variable.
