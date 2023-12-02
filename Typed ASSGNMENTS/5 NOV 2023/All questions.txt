@@ -1,0 +1,28 @@
+Explain the usage of ternary operator with syntax and write a program to check whether the number is even or odd using the ternary operator.
+
+An example of how you can use the ternary operator in JavaScript to check whether a number is even or odd:
+Solution : - 
+const number = parseInt(prompt("Enter a number:")); const result = number % 2 === 0 ? "Even" : "Odd"; console.log(`The number is ${result}.`); 
+In this JavaScript example, parseInt(prompt("Enter a number:")) is used to take user input and convert it to an integer. The ternary operator number % 2 === 0 ? "Even" : "Odd" checks if the number is even (remainder when divided by 2 is 0) and assigns "Even" to the result variable if true; otherwise, it assigns "Odd". Finally, the program prints the result using console.log().
+
+
+Describe the usage of the comma operator in JavaScript and provide an example.
+Solution: -
+The comma operator in JavaScript allows multiple expressions to be grouped together, evaluating each of them from left to right. It returns the value of the rightmost expression. It is often used in compact statements, loops, and variable declarations.
+Example:
+javascriptCopy code
+let a = 1, b = 2, c = 3; let sum = (a + b, c); console.log(sum); // Output: 3 
+In this example, (a + b, c) uses the comma operator to evaluate a + b (which has no effect on the result) and then returns the value of c, assigning it to the variable sum.
+
+Use a nested ternary operator to check that a number is positive, negative or zero. You have to print
+“positive” if the number is positive and similarly for negative and zero also.
+Solution:-
+An example using a nested ternary operator in JavaScript to check if a number is positive, negative, or zero and print the respective message:
+const number = parseInt(prompt("Enter a number:")); const result = number > 0 ? "positive" : number < 0 ? "negative" : "zero"; console.log(`The number is ${result}.`); 
+In this example, the nested ternary operators first check if the number is greater than 0. If true, it assigns "positive" to result. If false, it checks if the number is less than 0. If true, it assigns "negative" to result. If both conditions are false, it assigns "zero" to result. Finally, the program prints the result using console.log().
+
+Use a ternary operator to check that a person is eligible to vote or not by checking his age. If the age of the person is less than 18 then “You cannot vote” should be logged else “You can vote” should be logged.
+
+Here's an example using a ternary operator in JavaScript to check if a person is eligible to vote based on their age:
+const age = parseInt(prompt("Enter your age:")); const eligibility = age < 18 ? "You cannot vote" : "You can vote"; console.log(eligibility); 
+In this example, the ternary operator checks if the age is less than 18. If true, it assigns "You cannot vote" to the eligibility variable; otherwise, it assigns "You can vote". Finally, the program prints the eligibility message using console.log().
