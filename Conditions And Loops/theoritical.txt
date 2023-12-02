@@ -1,0 +1,49 @@
+Loops are programming constructs that allow for the repetition of a set of instructions or statements. They are essential for automating repetitive tasks and iterating over collections of data. There are several types of loops in most programming languages, including:
+
+For Loop:
+
+Syntax:
+javascript
+
+for (initialization; condition; update) {
+  // code to be repeated
+}
+Example:
+javascript
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+While Loop:
+
+Syntax:
+javascript
+
+while (condition) {
+  // code to be repeated
+}
+Example:
+javascript
+
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+Do-While Loop:
+
+Syntax:
+javascript
+
+do {
+  // code to be repeated
+} while (condition);
+Example:
+javascript
+
+let i = 0;
+do {
+  console.log(i);
+  i++;
+} while (i < 5);
+These loops provide different ways to control the flow of iteration based on specific conditions. The choice of loop depends on the nature of the problem and the iteration requirements.
