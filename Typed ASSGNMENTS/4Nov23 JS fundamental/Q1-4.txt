@@ -1,0 +1,125 @@
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Sol:- In JavaScript, operators are symbols that represent computations or operations on variables and values. They play a crucial role in programming by allowing developers to manipulate data, perform calculations, and make decisions. Operators can be categorized into several types based on their functionality:
+1.	Arithmetic Operators:
+•	+ (addition)
+•	- (subtraction)
+•	* (multiplication)
+•	/ (division)
+•	% (modulo)
+These operators perform basic arithmetic operations on numerical values, allowing you to perform calculations.
+2.	Assignment Operators:
+•	= (assignment)
+•	+=, -=, *=, /= (compound assignment)
+Assignment operators are used to assign values to variables. Compound assignment operators combine an operation
+with assignment.
+3.	Comparison Operators:
+•	== (equality)
+•	=== (strict equality)
+•	!= (inequality)
+•	!== (strict inequality)
+•	> (greater than)
+•	< (less than)
+•	>= (greater than or equal to)
+•	<= (less than or equal to)
+These operators compare values and return a Boolean result (true or false).
+4.	Logical Operators:
+•	&& (logical AND)
+•	|| (logical OR)
+•	! (logical NOT)
+Logical operators are used to perform logical operations and combine or negate conditions.
+5.	Unary Operators:
+•	+ (unary plus)
+•	- (unary minus)
+•	++ (increment)
+•	-- (decrement)
+Unary operators operate on a single operand and are often used for numerical operations.
+6.	Bitwise Operators:
+•	& (bitwise AND)
+•	| (bitwise OR)
+•	^ (bitwise XOR)
+•	~ (bitwise NOT)
+•	<< (left shift)
+•	>> (right shift)
+•	>>> (unsigned right shift)
+Bitwise operators perform operations at the binary level.
+Operators are essential in programming because they provide a way to manipulate and process data.
+By using operators, developers can perform calculations, compare values, make decisions, and control the flow
+of a program. They are fundamental building blocks that enable the creation of complex algorithms and the
+implementation of various functionalities in software development. Understanding and using operators effectively
+is crucial for writing efficient and expressive code in JavaScript and other programming languages.
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+In JavaScript, operators can be categorized based on their functionality. Here's an overview of the main categories with examples for each:
+1. Arithmetic Operators:
+•	Perform mathematical calculations on numerical values.
+let a = 5; let b = 2; let addition = a + b; // 7 let subtraction = a - b; // 3 let multiplication = a * b; // 10 let division = a / b; // 2.5 let modulus = a % b; // 1
+2. Assignment Operators:
+•	Assign values to variables and perform compound assignments.
+javascriptCopy code
+let x = 10; x += 5; // Equivalent to x = x + 5; (compound assignment)
+3. Comparison Operators:
+•	Compare values and return a Boolean result.
+let num1 = 10; let num2 = 5; console.log(num1 > num2); // true console.log(num1 === num2); // false console.log(num1 !== num2); // true
+4. Logical Operators:
+•	Combine or negate conditions.
+let isTrue = true; let isFalse = false; console.log(isTrue && isFalse); // false (logical AND) console.log(isTrue || isFalse); // true (logical OR) console.log(!isTrue); // false (logical NOT)
+5. Unary Operators:
+•	Operate on a single operand.
+let number = 5; console.log(+number); // 5 (unary plus) console.log(-number); // -5 (unary minus)
+6. Bitwise Operators:
+•	Perform operations at the binary level.
+let binaryNum1 = 5; // 101 in binary let binaryNum2 = 3; // 011 in binary console.log(binaryNum1 & binaryNum2); // 1 (bitwise AND) console.log(binaryNum1 | binaryNum2); // 7 (bitwise OR)
+
+Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+
+Sol: -
+In JavaScript, operators are categorized based on the number of operands they work with:
+1.	Unary Operators:
+•	Operate on a single operand.
+•	Example:
+let x = 5; let y = -x; // Unary minus operator let z = +x; // Unary plus operator 
+2.	Binary Operators:
+•	Operate on two operands.
+•	Example:
+let a = 5; let b = 3; let sum = a + b; // Binary addition operator let product = a * b; // Binary multiplication operator 
+3.	Ternary Operator (Conditional Operator):
+•	Takes three operands and is often used as a shorthand for an if-else statement.
+•	Syntax: condition ? expressionIfTrue : expressionIfFalse
+•	Example:
+let age = 20; let eligibility = (age >= 18) ? 'Eligible to vote' : 'Not eligible to vote'; 
+In this example, the ternary operator checks if the age is greater than or equal to 18. If true, it returns the string 'Eligible to vote'; otherwise, it returns 'Not eligible to vote'.
+These categories help define the number of operands an operator works with, and understanding this classification is crucial for writing clear and concise code in JavaScript.
+
+Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts important?
+In JavaScript, precedence and associativity are important concepts that dictate the order in which operators are evaluated in an expression. Understanding these concepts is crucial for writing correct and predictable code.
+1.	Precedence:
+•	Precedence determines the order in which operators are evaluated in an expression. Operators with higher precedence are executed first.
+•	For example, in the expression a + b * c, the * operator has higher precedence than the + operator, so b * c is evaluated first.
+Here are some common operators in JavaScript listed in order of decreasing precedence:
+•	Member Access: . (dot notation)
+•	Function Call: () (parentheses)
+•	Increment/Decrement: ++, --
+•	Logical NOT: !
+•	Multiplication/Division: *, /
+•	Addition/Subtraction: +, -
+•	Relational Operators: <, >, <=, >=
+•	Equality Operators: ==, ===, !=, !==
+•	Logical AND: &&
+•	Logical OR: ||
+•	Conditional (Ternary) Operator: ? :
+•	Assignment Operators: =, +=, -=, etc.
+2.	Associativity:
+•	Associativity determines the grouping of operators with the same precedence. It can be left-to-right or right-to-left.
+•	For example, in the expression a = b = c, the assignment operator = has right-to-left associativity. So, b = c is evaluated first, and then the result is assigned to a.
+The most common associativity types are:
+•	Left-to-right: =, +=, -= (assignment operators), ||, &&, +, -, *, /
+•	Right-to-left: ++, -- (unary increment and decrement)
+Understanding these concepts is important for several reasons:
+•	Correctness: Knowing the precedence and associativity of operators helps you write expressions that are evaluated in the intended order. This prevents unexpected behavior and ensures the correctness of your code.
+•	Readability: Code that follows common conventions for precedence and associativity is more readable to other developers. It reduces the need for excessive parentheses to clarify the order of operations.
+•	Debugging: When unexpected behavior occurs, understanding operator precedence and associativity aids in debugging by allowing you to trace the evaluation order of expressions.
+In summary, having a good grasp of operator precedence and associativity in JavaScript is fundamental for writing code that is both correct and easily understandable by others.
+
+
+
