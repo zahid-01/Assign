@@ -1,0 +1,18 @@
+/* BEM Styles */
+.paragraph {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.paragraph--large {
+  font-size: 20px;
+}
+
+.paragraph--highlight {
+  color: red;
+  font-weight: bold;
+}
+
+.paragraph--italic {
+  font-style: italic;
+}
