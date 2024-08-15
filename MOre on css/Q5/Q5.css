@@ -1,0 +1,26 @@
+/* Google Fonts Blog Styles */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.blog-heading {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.blog-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.blog-paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}

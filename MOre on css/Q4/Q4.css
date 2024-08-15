@@ -1,0 +1,13 @@
+/* Circular Image Styles */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.circular-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}

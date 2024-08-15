@@ -1,0 +1,17 @@
+/* Simple List Styles */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.simple-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.simple-list li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
